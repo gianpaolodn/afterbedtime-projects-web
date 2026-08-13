@@ -66,6 +66,10 @@ ul.feature-list li { margin-bottom: 10px; }
 .site-nav {
   border-bottom: 3px solid var(--c-gold);
   padding: 4px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--c-black);
 }
 .nav-inner {
   display: flex;
@@ -74,7 +78,7 @@ ul.feature-list li { margin-bottom: 10px; }
   flex-wrap: wrap;
   gap: 16px;
 }
-.brand-logo { width: 160px; height: 160px; }
+.brand-logo { width: 110px; height: 110px; }
 .site-nav nav ul {
   display: flex;
   gap: 18px;
@@ -232,6 +236,6 @@ ul.feature-list li { margin-bottom: 10px; }
   .project-grid { grid-template-columns: 1fr; }
   h1 { font-size: 1.2rem; }
   .hero-logo { width: 110px; height: 110px; }
-  .brand-logo { width: 96px; height: 96px; }
+  .brand-logo { width: 72px; height: 72px; }
   .footer-inner { flex-direction: column; }
 }
