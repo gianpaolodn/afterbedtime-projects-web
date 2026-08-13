@@ -65,7 +65,7 @@ ul.feature-list li { margin-bottom: 10px; }
 /* Nav */
 .site-nav {
   border-bottom: 3px solid var(--c-gold);
-  padding: 16px 0;
+  padding: 4px 0;
 }
 .nav-inner {
   display: flex;
