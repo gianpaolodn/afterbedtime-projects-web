@@ -74,7 +74,7 @@ ul.feature-list li { margin-bottom: 10px; }
   flex-wrap: wrap;
   gap: 16px;
 }
-.brand-logo { width: 56px; height: 56px; }
+.brand-logo { width: 84px; height: 84px; }
 .site-nav nav ul {
   display: flex;
   gap: 18px;
@@ -158,6 +158,7 @@ ul.feature-list li { margin-bottom: 10px; }
   text-align: center;
 }
 .hero-logo { width: 160px; height: 160px; margin: 0 auto 24px; }
+.hero p { margin-left: auto; margin-right: auto; }
 .tagline {
   font-family: var(--font-pixel);
   color: var(--c-white);
