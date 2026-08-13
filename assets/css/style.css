@@ -194,6 +194,19 @@ ul.feature-list li { margin-bottom: 10px; }
   gap: 12px;
   flex-wrap: wrap;
 }
+.social-link {
+  display: inline-block;
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  padding: 10px 14px;
+  border: 3px solid var(--c-gold);
+  color: var(--c-gold);
+  text-decoration: none;
+}
+.social-link:hover, .social-link:focus {
+  background: var(--c-gold);
+  color: var(--c-black);
+}
 .social-placeholder {
   display: inline-block;
   font-family: var(--font-pixel);
