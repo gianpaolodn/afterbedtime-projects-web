@@ -123,7 +123,7 @@ ul.feature-list li { margin-bottom: 10px; }
   transform: translate(3px, 3px);
   box-shadow: 1px 1px 0 var(--c-black), 4px 4px 0 var(--c-white);
 }
-.btn--red { background: var(--c-red); color: var(--c-white); }
+.btn--red { background: var(--c-red); color: var(--c-black); }
 
 /* Badges */
 .badge {
@@ -134,7 +134,7 @@ ul.feature-list li { margin-bottom: 10px; }
   margin-bottom: 16px;
   letter-spacing: 1px;
 }
-.badge--dev { background: var(--c-red); color: var(--c-white); }
+.badge--dev { background: var(--c-red); color: var(--c-black); }
 .badge--live { background: var(--c-gold); color: var(--c-black); }
 
 /* Cards / project grid */
